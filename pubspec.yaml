@@ -1,0 +1,35 @@
+name: tounesbet
+description: TounesBet - Paris Sportifs Luxe
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.9.0
+  google_sign_in: ^6.1.5
+  sign_in_with_apple: ^5.0.0
+  local_auth: ^2.1.6
+  url_launcher: ^6.1.14
+  qr_flutter: ^4.1.0
+  web_socket_channel: ^2.4.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
